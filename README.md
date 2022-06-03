@@ -1,5 +1,5 @@
-# funeral-services
-website about funeral-services
+# Funeral-services
+## Website about funeral-services
 
 * Для работы над проектом нужно клонировать репозиторий: 
   
@@ -11,15 +11,15 @@ website about funeral-services
   
 `git switch -C feat/название блока`
 
-##Breakpoints:
+### Breakpoints:
 * 1200px
 * 992px
 * 768px
 * 320px
 
-### ССылки
+#### ССылки
 * [Ссылка на проект](http://alvde-site.byethost5.com/)
 
-### Разработчки:
+#### Разработчки:
 * Демиденко Александр
 * Демиденко Сергей
