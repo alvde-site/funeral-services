@@ -8,7 +8,13 @@ cd funerl-services
 *В ветке develop создать свою ветку и работать в ней, например:
 git switch -C feat/название блока
 
-## ССылки
+##Breakpoints
+*1200px
+*992px
+*768px
+*320px
+
+### ССылки
 * [Ссылка на проект](http://alvde-site.byethost5.com/)
 
 ### Разработчки:
