@@ -1,14 +1,22 @@
   .header__logo {
-    width: 142px;
-    height: 33px;
-    background: url(../../../images/svg/header-logo.svg) center/contain no-repeat;
-    margin: 0 0 41px;
+    min-width: 160px;
+    text-align: center;
   }
 
-@media (max-width: 935px) {
+@media (max-width: 1200px) {
   .header__logo {
-    width: 104px;
-    height: 24px;
-    margin: 0 0 32px 27px;
+    width: 130px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__logo {
+    width: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__logo {
+    width: 105px;
   }
 }
