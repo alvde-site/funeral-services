@@ -1,20 +1,14 @@
-.header__contacts-tel {
+.header__contacts-title {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-  color: #000;
-  text-decoration: none;
-  transition: all .15s ease-in-out;
-}
-
-.header__contacts-tel:hover {
-  color: #AB0C00;
+  margin: 0;
 }
 
 @media (max-width: 992px) {
-  .header__contacts-tel {
+  .header__contacts-title {
     font-size: 14px;
     line-height: 14px;
   }

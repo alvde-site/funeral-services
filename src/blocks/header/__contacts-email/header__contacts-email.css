@@ -1,7 +1,7 @@
-.header__contacts-tel {
+.header__contacts-email {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #000;
@@ -9,12 +9,12 @@
   transition: all .15s ease-in-out;
 }
 
-.header__contacts-tel:hover {
+.header__contacts-email:hover {
   color: #AB0C00;
 }
 
 @media (max-width: 992px) {
-  .header__contacts-tel {
+  .header__contacts-email {
     font-size: 14px;
     line-height: 14px;
   }

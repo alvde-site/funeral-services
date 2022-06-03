@@ -5,18 +5,19 @@
 
 @media (max-width: 1200px) {
   .header__logo {
-    width: 130px;
+    min-width: 130px;
   }
 }
 
 @media (max-width: 992px) {
   .header__logo {
-    width: 90px;
+    min-width: 90px;
   }
 }
 
 @media (max-width: 768px) {
   .header__logo {
-    width: 105px;
+    min-width: 25%;
+    max-width: 25%;
   }
 }
