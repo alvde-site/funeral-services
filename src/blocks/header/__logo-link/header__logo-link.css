@@ -1,0 +1,26 @@
+.header__logo-link {
+  text-decoration: none;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #000;
+  transition: all .15s ease-in-out;
+}
+
+.header__logo-link:hover {
+  color: #AB0C00;
+}
+
+@media (max-width: 992px) {
+  .header__logo-link {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__logo-link {
+    font-size: 12px;
+  }
+}

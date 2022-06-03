@@ -1,0 +1,15 @@
+.header__contacts-title {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .header__contacts-title {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

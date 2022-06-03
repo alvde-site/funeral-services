@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/inter.css);
+@import url(../vendor/fonts/roboto.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
@@ -7,6 +7,16 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-image/header__logo-image.css);
+@import url(../blocks/header/__logo-link/header__logo-link.css);
+@import url(../blocks/header/__contacts/header__contacts.css);
+@import url(../blocks/header/__contacts-item/header__contacts-item.css);
+@import url(../blocks/header/__contacts-title/header__contacts-title.css);
+@import url(../blocks/header/contacts-hours/header__contacts-hours.css);
+@import url(../blocks/header/__contacts-item/header__contacts-item.css);
+@import url(../blocks/header/__contacts-email/header__contacts-email.css);
+@import url(../blocks/header/__contacts-tel/header__contacts-tel.css);
+@import url(../blocks/header/__feedback/header__feedback.css);
 
 /* main начало */
 
