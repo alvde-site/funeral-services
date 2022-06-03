@@ -9,7 +9,7 @@
 `cd funeral-services`
 * В ветке develop создать свою ветку и работать в ней, например:
   
-`git switch -C feat/название ветки`
+`git switch -C feat/название-ветки`
 
 ### Breakpoints:
 * 1200px
