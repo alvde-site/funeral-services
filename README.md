@@ -3,13 +3,13 @@ website about funeral-services
 
 * Для работы над проектом нужно клонировать репозиторий: 
   
-git clone git@github.com:alvde-site/funeral-services.git
+`git clone git@github.com:alvde-site/funeral-services.git`
 * Перейти в папку:
   
-cd funerl-services
+`cd funerl-services`
 * В ветке develop создать свою ветку и работать в ней, например:
   
-git switch -C feat/название блока
+`git switch -C feat/название блока`
 
 ##Breakpoints:
 * 1200px
