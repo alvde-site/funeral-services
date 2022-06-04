@@ -5,5 +5,8 @@
     border: 2px solid #ddd;
     border-radius: 6px;
     background: #ddd;
-
+    color: #ddd;
+    font-size: 22px;
+    line-height: 1.25;
+    text-align: center;
 }
