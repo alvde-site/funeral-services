@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
     <title>Ритульные услуги</title>
     <meta name="description" content="Ритуальные услуги" />
     <meta name="keywords" content="Ритуальные услуги" />
@@ -62,7 +61,7 @@
       <!-- Начало блока footer -->
 
       <footer class="footer"></footer>
-      <div class="popup popup_handle_feedback popup_opened">
+      <div class="popup popup_handle_feedback">
         <div class="popup__container">
           <button
             class="popup__close"
@@ -87,11 +86,13 @@
             <label for="tel" class="form__field">
               <input
                 id="tel"
-                type="url"
+                type="text"
                 class="form__input form__input_add_link"
                 name="tel"
                 placeholder="+375 ( __ ) ___ - __ - __"
                 required
+                minlength="13"
+                maxlength="13"
               />
               <span id="error-tel" class="form__input-error"></span>
             </label>
@@ -142,6 +143,5 @@
     <template id="element_template">
       <li class="element"></li>
     </template>
-    <script src="./pages/index.js"></script>
   </body>
 </html>
