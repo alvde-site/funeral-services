@@ -1,92 +1,147 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ритульные услуги</title>
+    <meta name="description" content="Ритуальные услуги" />
+    <meta name="keywords" content="Ритуальные услуги" />
+    <meta name="author" content="Демиденко Александр, Демиденко Сергей" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Ритульные услуги</title>
-  <meta name="description" content="Ритуальные услуги">
-  <meta name="keywords" content="Ритуальные услуги">
-  <meta name="author" content="Демиденко Александр, Демиденко Сергей">
-</head>
+  <body class="root">
+    <div class="page">
+      <!-- Начало блока header -->
 
-<body class="root">
-  <div class="page">
+      <header class="header">
+        <div class="header__logo">
+          <div class="header__logo-image"></div>
+          <a href="#!" class="header__logo-link">Ритуальное агентство</a>
+        </div>
+        <ul class="header__contacts">
+          <li class="header__contacts-item">
+            <h3 class="header__contacts-title">Режим работы:</h3>
+            <p class="header__contacts-hours">Пн-пт с 00:00 до 00:00</p>
+          </li>
+          <li class="header__contacts-item">
+            <h3 class="header__contacts-title">Почта:</h3>
+            <a href="mailto:testform@sitepro.by" class="header__contacts-email"
+              >alvde@yandex.ru</a
+            >
+          </li>
+          <li class="header__contacts-item">
+            <h3 class="header__contacts-title">Телефон:</h3>
+            <a href="tel:+375000000000" class="header__contacts-tel"
+              >+375(00) 000-00-00</a
+            >
+          </li>
+        </ul>
+        <button class="header__feedback">Заказать звонок</button>
+      </header>
 
-    <!-- Начало блока header -->
+      <!-- Начало блока nav -->
 
-    <header class="header">
-      <div class="header__logo">
-        <div class="header__logo-image"></div>
-        <a href="#!" class="header__logo-link">Ритуальное агентство</a>
+      <nav class="nav"></nav>
+
+      <!-- Начало блока content -->
+
+      <main class="content">
+        <section class="advertisement"></section>
+        <section class="services"></section>
+        <section class="catalog"></section>
+        <section class="benefits"></section>
+        <section class="portfolio"></section>
+        <section class="working"></section>
+        <section class="faq"></section>
+        <section class="about"></section>
+        <section class="conditions"></section>
+        <section class="location"></section>
+      </main>
+
+      <!-- Начало блока footer -->
+
+      <footer class="footer"></footer>
+      <div class="popup popup_handle_feedback">
+        <div class="popup__container">
+          <button
+            class="popup__close"
+            type="button"
+            aria-label="Закрыть"
+          >&#10006;</button>
+          <form action="#" name="feedbackform" class="form" novalidate>
+            <h2 class="form__title">Заказать звонок</h2>
+            <label for="email" class="form__field">
+              <input
+                id="email"
+                type="email"
+                class="form__input form__input_add_name"
+                name="email"
+                placeholder="Введите e-mail адрес"
+                required
+                minlength="2"
+                maxlength="30"
+              />
+              <span id="error-email" class="form__input-error"></span>
+            </label>
+            <label for="tel" class="form__field">
+              <input
+                id="tel"
+                type="text"
+                class="form__input form__input_add_link"
+                name="tel"
+                placeholder="+375 ( __ ) ___ - __ - __"
+                required
+                minlength="13"
+                maxlength="13"
+              />
+              <span id="error-tel" class="form__input-error"></span>
+            </label>
+            <button class="form__submit" type="submit">
+              <span class="form__submit-text">
+                <span class="form__submit-icon form__submit-icon_type_hidden">&#10148</span>
+                <span class="form__submit-icon">Бесплатная консультация</span>
+              </span>
+            </button>
+            <label for="checkbox-input" class="form__field form__field_type_row">
+              <input class="form__checkbox" id="checkbox-input" type="checkbox" required>
+              <span class="form__checkbox-item">&#10004;</span>
+              <span class="form__conditions">Принимаю соглашение о </span>
+              <a class="form__conditions-link" href="https://0622203.demo1.siteimperium.com/privacy">персональных данных</a>
+              <span class="form__input-error checkbox-input-error"></span>
+              <span class="form__placeholder checkbox-input-placeholder"></span>
+            </label>
+          </form>
+        </div>
       </div>
-      <ul class="header__contacts">
-        <li class="header__contacts-item">
-          <h3 class="header__contacts-title">Режим работы:</h3>
-          <p class="header__contacts-hours">Пн-пт с 00:00 до 00:00</p>
-        </li>
-        <li class="header__contacts-item">
-          <h3 class="header__contacts-title">Почта:</h3>
-          <a href="mailto:testform@sitepro.by" class="header__contacts-email">alvde@yandex.ru</a>
-        </li>
-        <li class="header__contacts-item">
-          <h3 class="header__contacts-title">Телефон:</h3>
-          <a href="tel:+375000000000" class="header__contacts-tel">+375(00) 000-00-00</a>
-        </li>
-      </ul>
-      <button class="header__feedback">Заказать звонок</button>
-    </header>
-
-    <!-- Начало блока nav -->
-
-    <nav class="nav"></nav>
-
-    <!-- Начало блока content -->
-
-    <main class="content">
-      <section class="advertisement"></section>
-      <section class="services"></section>
-      <section class="catalog"></section>
-      <section class="benefits"></section>
-      <section class="portfolio"></section>
-      <section class="working"></section>
-      <section class="faq"></section>
-      <section class="about"></section>
-      <section class="conditions"></section>
-      <section class="location"></section>
-    </main>
-
-    <!-- Начало блока footer -->
-
-    <footer class="footer">
-    <div class="popup">
-      <div class="popup__container">
+      <div class="popup popup_handle_image-viewing">
+        <div class="image-viewing">
+          <button
+            class="popup__close"
+            type="button"
+            aria-label="Закрыть"
+          ></button>
+          <figure class="image-viewing__img-card">
+            <img src="#" alt="#" class="image-viewing__image" />
+            <figcaption class="image-viewing__caption"></figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="popup popup_handle_remove-confirm">
+        <div class="popup__container">
+          <button
+            class="popup__close"
+            type="button"
+            aria-label="Закрыть"
+          ></button>
+          <form action="#" name="confirmform" class="form" novalidate>
+            <h2 class="form__title">Вы уверены?</h2>
+            <button class="form__submit" type="submit">Да</button>
+          </form>
+        </div>
       </div>
     </div>
-    <div class="popup popup_handle_image-viewing">
-      <div class="image-viewing">
-        <button class="popup__close" type="button" aria-label="Закрыть"></button>
-        <figure class="image-viewing__img-card">
-          <img src="#" alt="#" class="image-viewing__image">
-          <figcaption class="image-viewing__caption"></figcaption>
-        </figure>
-      </div>
-    </div>
-    <div class="popup popup_handle_remove-confirm">
-      <div class="popup__container">
-        <button class="popup__close" type="button" aria-label="Закрыть"></button>
-        <form action="#" name="confirmform" class="form" novalidate>
-          <h2 class="form__title">Вы уверены?</h2>
-          <button class="form__submit" type="submit">Да</button>
-        </form>
-      </div>
-    </div>
-  </div>
-  <template id="element_template">
-    <li class="element">
-    </li>
-  </template>
-  <script src="./pages/index.js"></script>
-</body>
+    <template id="element_template">
+      <li class="element"></li>
+    </template>
+  </body>
 </html>

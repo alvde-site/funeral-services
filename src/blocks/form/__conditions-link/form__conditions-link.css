@@ -1,0 +1,14 @@
+.form__conditions-link {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2251aa;
+  text-decoration: none;
+  transition: all .15s ease-in-out;
+}
+
+.form__conditions-link:hover {
+  color: #000;
+}
