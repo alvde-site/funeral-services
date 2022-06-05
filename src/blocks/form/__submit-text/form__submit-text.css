@@ -1,0 +1,12 @@
+.form__submit-text {
+  position: relative;
+  transform: translateX(-50%);
+  width: 200%;
+  display: flex;
+  justify-content: space-between;
+  transition: all .15s ease-in-out;
+}
+
+.form__submit-text:hover {
+  transform: translateX(0%);
+}

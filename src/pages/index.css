@@ -59,6 +59,8 @@
 @import url(../blocks/form/__checkbox-item/form__checkbox-item.css);
 @import url(../blocks/form/__conditions/form__conditions.css);
 @import url(../blocks/form/__conditions-link/form__conditions-link.css);
+@import url(../blocks/form/__submit-text/form__submit-text.css);
+@import url(../blocks/form/__submit-icon/form__submit-icon.css);
 
 /* Просмотр фото в блоке popup */
 

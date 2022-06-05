@@ -1,5 +1,6 @@
 .form__submit {
   display: block;
+  position: relative;
   box-sizing: border-box;
   min-width: 200px;
   height: 58px;
@@ -16,10 +17,11 @@
   cursor: pointer;
   transition: 0.2s;
   margin: 0 auto 45px;
+  overflow: hidden;
 }
 
-.form__submit:hover {
-  opacity: 0.8;
+.form__submit:hover .form__submit-text {
+  transform: translateX(0%);
 }
 
 @media (max-width: 935px) {
