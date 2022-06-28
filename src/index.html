@@ -89,10 +89,9 @@
                 type="text"
                 class="form__input form__input_add_link"
                 name="tel"
-                placeholder="+375 ( __ ) ___ - __ - __"
+                placeholder="+375221112233"
                 required
-                minlength="13"
-                maxlength="13"
+                pattern="\+375[0-9]{9}"
               />
               <span id="error-tel" class="form__input-error"></span>
             </label>
