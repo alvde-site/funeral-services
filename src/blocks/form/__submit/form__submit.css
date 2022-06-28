@@ -20,10 +20,6 @@
   overflow: hidden;
 }
 
-.form__submit:hover .form__submit-text {
-  transform: translateX(0%);
-}
-
 @media (max-width: 935px) {
   .form__submit {
     font-size: 14px;

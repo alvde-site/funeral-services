@@ -9,6 +9,7 @@ export default class FormValidator {
     this._inputList = this._form.querySelectorAll(this._inputSelector);
     this._checkboxList = this._form.querySelectorAll(this._checkboxSelector);
     this._submitButton = this._form.querySelector(this._submitButtonSelector);
+    this._formSubmitText = document.querySelector('.form__submit-text');
   }
 
   enableValidation() {
@@ -23,7 +24,6 @@ export default class FormValidator {
       checkbox.addEventListener('change', (checkbox)=> {
         this._checkInputValidity(checkbox.target);
         this._checkButtonValidity();
-        // console.log(checkbox.validity)
       });
     })
   }
@@ -40,8 +40,10 @@ export default class FormValidator {
     if(this._form.checkValidity()){
       this._submitButton.classList.remove(this._inactiveButtonClass);
       this._submitButton.removeAttribute('disabled');
+      this._form && this._formSubmitText.classList.add('form__submit-text_hover');
     } else {
       this._submitButton.classList.add(this._inactiveButtonClass);
+      this._form && this._formSubmitText.classList.remove('form__submit-text_hover');
       this._submitButton.setAttribute('disabled','');
     }
   }
@@ -54,15 +56,6 @@ export default class FormValidator {
    this._setInputInvalid(errorMessage, input);
     }
   }
-
-  // _checkcheckboxSelector(input) {
-  //   const errorMessage = this._form.querySelector(`#error-${input.id}`);
-  //   if(input.validity.valid){
-  //  this._setInputValid(errorMessage, input);
-  //   } else {
-  //  this._setInputInvalid(errorMessage, input);
-  //   }
-  // }
 
   _setInputValid(errorMessage, input) {
     input.classList.remove(this._inputErrorClass);

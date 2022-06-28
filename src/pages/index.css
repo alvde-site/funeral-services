@@ -60,6 +60,7 @@
 @import url(../blocks/form/__conditions/form__conditions.css);
 @import url(../blocks/form/__conditions-link/form__conditions-link.css);
 @import url(../blocks/form/__submit-text/form__submit-text.css);
+@import url(../blocks/form/__submit-text/_hover/form__submit-text_hover.css);
 @import url(../blocks/form/__submit-icon/form__submit-icon.css);
 @import url(../blocks/form/__submit-icon/_type/form__submit-icon_type_hidden.css);
 
