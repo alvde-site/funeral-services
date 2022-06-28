@@ -1,11 +1,13 @@
 export default class FormValidator {
   constructor(data, form) {
     this._inputSelector = data.inputSelector;
+    this._checkboxSelector = data.checkboxSelector;
     this._submitButtonSelector = data.submitButtonSelector;
     this._inactiveButtonClass = data.inactiveButtonClass;
     this._inputErrorClass = data.inputErrorClass;
     this._form = form;
     this._inputList = this._form.querySelectorAll(this._inputSelector);
+    this._checkboxList = this._form.querySelectorAll(this._checkboxSelector);
     this._submitButton = this._form.querySelector(this._submitButtonSelector);
   }
 
@@ -15,6 +17,13 @@ export default class FormValidator {
       input.addEventListener('input', (input)=> {
         this._checkInputValidity(input.target);
         this._checkButtonValidity();
+      });
+    })
+    this._checkboxList.forEach(checkbox => {
+      checkbox.addEventListener('change', (checkbox)=> {
+        this._checkInputValidity(checkbox.target);
+        this._checkButtonValidity();
+        // console.log(checkbox.validity)
       });
     })
   }
@@ -39,12 +48,21 @@ export default class FormValidator {
 
   _checkInputValidity(input) {
     const errorMessage = this._form.querySelector(`#error-${input.id}`);
-    if(input.validity.valid){
+    if(input.validity.valid || input.checked){
    this._setInputValid(errorMessage, input);
     } else {
    this._setInputInvalid(errorMessage, input);
     }
   }
+
+  // _checkcheckboxSelector(input) {
+  //   const errorMessage = this._form.querySelector(`#error-${input.id}`);
+  //   if(input.validity.valid){
+  //  this._setInputValid(errorMessage, input);
+  //   } else {
+  //  this._setInputInvalid(errorMessage, input);
+  //   }
+  // }
 
   _setInputValid(errorMessage, input) {
     input.classList.remove(this._inputErrorClass);

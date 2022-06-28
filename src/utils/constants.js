@@ -10,6 +10,7 @@ export const feedbackButton = document.querySelector('.header__feedback'); // К
 export const formData = {
   formSelector: '.form',
   inputSelector: '.form__input',
+  checkboxSelector: '.form__checkbox',
   submitButtonSelector: '.form__submit',
   inactiveButtonClass: 'form__submit_disabled',
   inputErrorClass: 'form__input_type_error',
