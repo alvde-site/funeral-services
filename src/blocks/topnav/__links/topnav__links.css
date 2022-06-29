@@ -1,0 +1,19 @@
+.topnav__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .topnav__links {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 992px) {
+  .topnav__links {
+    display: none;
+  }
+}
