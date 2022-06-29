@@ -22,6 +22,10 @@
 @import url(../blocks/topnav/__links/topnav__links.css);
 @import url(../blocks/topnav/__link/topnav__link.css);
 
+/* burger начало */
+
+@import url(../blocks/burger-menu/burger-menu.css);
+
 /* main начало */
 
 @import url(../blocks/content/content.css);

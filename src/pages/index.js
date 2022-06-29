@@ -1,8 +1,11 @@
 import "./index.css";
+import { toggleBurger } from "../utils/utils.js";
 import FormValidator from "../components/FormValidator.js";
 import { feedbackButton, formData } from "../utils/constants.js";
 import PopupWithForm from "../components/PopupWithForm.js";
 
+// Включить бургер меню
+toggleBurger();
 // Объект с набором форм и аттрибутом name;
 const formValidator = {};
 

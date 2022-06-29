@@ -12,6 +12,9 @@
 
 @media (max-width: 992px) {
   .topnav__content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
     max-width: 690px;
   }
 }
