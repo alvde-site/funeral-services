@@ -1,0 +1,27 @@
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  min-width: 730px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .contacts {
+    min-width: 610px;
+  }
+}
+
+@media (max-width: 992px) {
+  .contacts {
+    min-width: 390px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts {
+    display: none;
+  }
+}

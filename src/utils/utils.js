@@ -9,3 +9,14 @@ export const toggleBurger = () => {
     navContent.classList.toggle('topnav__content_opened');
   })
 }
+
+export const getCoordsTopnav = ()=> {
+  window.addEventListener('scroll', ()=> {
+    let topPosition = navContent.getBoundingClientRect().y;
+    if(topPosition === 0) {
+
+    } else {
+
+    }
+  })
+}

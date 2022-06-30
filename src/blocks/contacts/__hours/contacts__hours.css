@@ -1,0 +1,15 @@
+.contacts__hours {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .contacts__hours {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
