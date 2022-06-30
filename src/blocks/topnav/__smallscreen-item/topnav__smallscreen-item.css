@@ -1,0 +1,11 @@
+.topnav__smallscreen-item {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .topnav__smallscreen-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

@@ -14,9 +14,9 @@ export const getCoordsTopnav = ()=> {
   window.addEventListener('scroll', ()=> {
     let topPosition = navContent.getBoundingClientRect().y;
     if(topPosition === 0) {
-      topnavContacts.classList.add('topnav__contacts_active');
+     // topnavContacts.classList.add('topnav__contacts_active');
     } else {
-      topnavContacts.classList.remove('topnav__contacts_active');
+    //  topnavContacts.classList.remove('topnav__contacts_active');
     }
   })
 }

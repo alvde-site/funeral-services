@@ -1,11 +1,3 @@
 .topnav__contacts {
   display: none;
 }
-
-@media (max-width: 992px) {
-  .topnav__contacts {
-    display: flex;
-    opacity: 0;
-    visibility: hidden;
-  }
-}

@@ -28,10 +28,13 @@
 @import url(../blocks/topnav/__cotent/topnav__content.css);
 @import url(../blocks/topnav/__contacts/topnav__contacts.css);
 @import url(../blocks/topnav/__contacts/_active/topnav__contacts_active.css);
+@import url(../blocks/topnav/__smallscreen-item/topnav__smallscreen-item.css);
 @import url(../blocks/topnav/__burger/topnav__burger.css);
 @import url(../blocks/topnav/__links/topnav__links.css);
 @import url(../blocks/topnav/__links/_opened/topnav__links_opened.css);
 @import url(../blocks/topnav/__link/topnav__link.css);
+@import url(../blocks/topnav/__email/topnav__email.css);
+@import url(../blocks/topnav/__tel/topnav__tel.css);
 
 /* burger начало */
 
