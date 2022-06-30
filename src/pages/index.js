@@ -1,5 +1,5 @@
 import "./index.css";
-import { toggleBurger, getCoordsTopnav } from "../utils/utils.js";
+import { toggleBurger, getCoordsTopnav, deviceWidth } from "../utils/utils.js";
 import FormValidator from "../components/FormValidator.js";
 import { feedbackButton, formData } from "../utils/constants.js";
 import PopupWithForm from "../components/PopupWithForm.js";
@@ -7,7 +7,12 @@ import PopupWithForm from "../components/PopupWithForm.js";
 // Включить бургер меню
 toggleBurger();
 // Получение координат
-getCoordsTopnav();
+deviceWidth();
+
+// window.addEventListener('resize', ()=> {
+//   let width = deviceWidth();
+//   console.log(width);
+// })
 // Объект с набором форм и аттрибутом name;
 const formValidator = {};
 
