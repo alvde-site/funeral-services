@@ -1,3 +1,10 @@
 .topnav__burger {
   margin: 10px 0 10px auto;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .topnav__burger {
+    display: block;
+  }
 }
