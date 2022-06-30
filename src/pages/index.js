@@ -1,13 +1,12 @@
 import "./index.css";
-import { toggleBurger, getCoordsTopnav, deviceWidth } from "../utils/utils.js";
+import { toggleBurger, getCoordsTopnav, handeDeviceWidth } from "../utils/utils.js";
 import FormValidator from "../components/FormValidator.js";
 import { feedbackButton, formData } from "../utils/constants.js";
 import PopupWithForm from "../components/PopupWithForm.js";
+import { burger } from "../utils/constants.js";
 
-// Включить бургер меню
-toggleBurger();
 // Получение координат
-deviceWidth();
+handeDeviceWidth();
 
 // window.addEventListener('resize', ()=> {
 //   let width = deviceWidth();
@@ -60,3 +59,5 @@ function openPopupFeedbackForm() {
 feedbackButton.addEventListener("click", () => {
   openPopupFeedbackForm();
 });
+
+burger.addEventListener('click', toggleBurger);
