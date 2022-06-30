@@ -19,7 +19,10 @@
 @import url(../blocks/header/__feedback/header__feedback.css);
 @import url(../blocks/topnav/topnav.css);
 @import url(../blocks/topnav/__cotent/topnav__content.css);
+@import url(../blocks/topnav/__cotent/_opened/topnav__content_opened.css);
+@import url(../blocks/topnav/__burger/topnav__burger.css);
 @import url(../blocks/topnav/__links/topnav__links.css);
+@import url(../blocks/topnav/__links/_opened/topnav__links_opened.css);
 @import url(../blocks/topnav/__link/topnav__link.css);
 
 /* burger начало */
