@@ -6,6 +6,6 @@
   .topnav__smallscreen-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
   }
 }

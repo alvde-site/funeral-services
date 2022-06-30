@@ -7,6 +7,7 @@
   color: #000;
   text-decoration: none;
   transition: all .15s ease-in-out;
+  margin-bottom: 7px;
 }
 
 .topnav__email:hover {

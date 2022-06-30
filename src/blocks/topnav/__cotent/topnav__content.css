@@ -1,4 +1,5 @@
 .topnav__content {
+  box-sizing: border-box;
   max-width: 1110px;
   margin: 0 auto;
   padding: 12px 15px;
